@@ -6,7 +6,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    if BRANDS[0..-1] == brand
+    if BRANDS[0..-1] != brand
       BRANDS.push(brand)
     end
   end
