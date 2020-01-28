@@ -6,7 +6,7 @@ class Shoe
   
   def initialize(brand)
     @brand = brand
-    if self.brand != brand
+    if self.brand == brand
       BRANDS.push(brand)
     end
   end
